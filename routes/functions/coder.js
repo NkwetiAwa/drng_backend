@@ -14,7 +14,7 @@ const generateCode = async() => {
     month = "0"+month;
   }
   
-  const code = `A${count+1}${day}${month}${year.substring(0,2)}`
+  const code = `A${count+1}${day}${month}${year.substring(2)}`
   return code;
 }
 
